@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Noto+Serif+SC:200,400');
+
+@import url('https://fonts.googleapis.com/css?family=Krub');
+
+body{
+  background-color:red;
+  background-image:url("../dog.jpg");
+  color:white;
+  opacity:0.5;
+  /*font-family: 'Major Mono Display', monospace;*//*
+ font-family: 'Noto Serif SC', serif;*/
+ font-family: 'Krub', sans-serif;
+
+}
+
+h1{
+    font-size:1rem
+}
+h2{
+    font-size:40px;
+}
+
+h1, h2, h4{
+  /*color:rgba(142, 212, 191, 0.589);*/
+  font-family: 'Noto Serif SC', serif;
+
+  color: #ffff00;
+}
+
+p:hover{
+
+  background-color:black;
+  color:white;
+}
+
+a:hover{
+  color:yellow;
+
+}
+a:visited{
+  color:red;
+}
+div img{
+  border-radius:1em;
+}
+
+#special{
+background-color:green;
+
+}
+
+.uppercase{
+  text-transform:uppercase;
+}
+
+.bigLetter{
+
+  font-size:30px;
+}
+
+.red{
+
+color:red;
+}
